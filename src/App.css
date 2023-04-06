@@ -1,8 +1,8 @@
 .container {
   justify-content: center;
-  background: url("https://images.unsplash.com/photo-1492112007959-c35ae067c37b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGRhcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60")
+  /* background: url("https://images.unsplash.com/photo-1492112007959-c35ae067c37b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGRhcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60")
     center center no-repeat;
-  background-size: cover;
+  background-size: cover; */
   max-width: 100%;
 }
 .load-container {
@@ -17,7 +17,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.button {
-  color: antiquewhite;
 }
