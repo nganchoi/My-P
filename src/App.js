@@ -4,6 +4,8 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import NotePage from "./components/NotePage";
 import SignInSignupWithLocalStorage from "./components/SignUpForm";
+// import SignUpHome from "./components/Firebase/SignUpHome";
+// import AuthForm from "./components/Firebase/AuthForm";
 
 function App() {
   return (

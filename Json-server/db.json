@@ -1,6 +1,31 @@
 {
+  "products": [
+    {
+      "id": 1,
+      "name": "Iphone 14",
+      "price": 1000
+    },
+    {
+      "id": 2,
+      "sku": "ADP-5700",
+      "name": "Samsung Note",
+      "price": 9900
+    },
+    {
+      "id": 3,
+      "sku": "ADP-5340",
+      "name": "Samsung Watch",
+      "price": 350
+    }
+  ],
   "users": [
-    { "id": 1, "name": "John Doe", "email": "johndoe@example.com" },
-    { "id": 2, "name": "Jane Smith", "email": "janesmith@example.com" }
+    {
+      "id": 1,
+      "name": "Admin"
+    },
+    {
+      "id": 2,
+      "name": "User 2"
+    }
   ]
 }

@@ -10,7 +10,7 @@ function SignInSignupWithLocalStorage() {
   const localSignUp = localStorage.getItem("signUp");
   const localEmail = localStorage.getItem("email");
   const localPassword = localStorage.getItem("password");
-  const localName = localStorage.getItem("name");
+  const localName = localStorage.getItem("NickName");
 
   useEffect(() => {
     if (localSignUp) {
@@ -37,8 +37,8 @@ function SignInSignupWithLocalStorage() {
 
   const handleSignIn = () => {
     if (
-      email.current.value == localEmail &&
-      password.current.value == localPassword
+      email.current.value === localEmail &&
+      password.current.value === localPassword
     ) {
       localStorage.setItem("signUp", email.current.value);
       window.location.reload();
@@ -64,7 +64,7 @@ function SignInSignupWithLocalStorage() {
       ) : (
         <div className="container">
           <div className="input_space">
-            <input placeholder="Name" type="text" ref={Nickname} />
+            <input placeholder="Nickname" type="text" ref={Nickname} />
           </div>
           <div className="input_space">
             <input placeholder="Email" type="text" ref={email} />

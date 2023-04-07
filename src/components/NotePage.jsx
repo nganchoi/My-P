@@ -33,7 +33,7 @@ function NotePage() {
     newEntries.splice(index, 1);
     setTimeout(() => {
       setEntries(newEntries);
-    }, 5000);
+    }, 150000);
   }
 
   return (
