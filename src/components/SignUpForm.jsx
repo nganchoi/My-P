@@ -47,34 +47,69 @@ function SignInSignupWithLocalStorage() {
     }
   };
   return (
-    <div>
-      {showHome ? (
-        <Box />
-      ) : show ? (
-        <div className="container">
-          <h1>Hello {localName}</h1>
-          <div className="input_space">
-            <input placeholder="Email" type="text" ref={email} />
+    <div className="big-container">
+      <div className="loginContainer" style={{}}>
+        <div className="loginmain" style={{}}>
+          <div className="login-box">
+            {showHome ? (
+              <Box />
+            ) : show ? (
+              <div className="container">
+                <h1>Hello {localName}</h1>
+                <div className="login-sbox">
+                  <input
+                    className="input"
+                    placeholder="Email"
+                    type="text"
+                    ref={email}
+                  />
+                </div>
+                <div className="login-sbox">
+                  <input
+                    className="input"
+                    placeholder="Password"
+                    type="password"
+                    ref={password}
+                  />
+                </div>
+                <button className="signbtn" onClick={handleSignIn}>
+                  Sign In
+                </button>
+              </div>
+            ) : (
+              <div className="container">
+                <div className="login-sbox">
+                  <input
+                    className="input"
+                    placeholder="Nickname"
+                    type="text"
+                    ref={Nickname}
+                  />
+                </div>
+                <div className="login-sbox">
+                  <input
+                    className="input"
+                    placeholder="Email"
+                    type="text"
+                    ref={email}
+                  />
+                </div>
+                <div className="login-sbox">
+                  <input
+                    className="input"
+                    placeholder="Password"
+                    type="password"
+                    ref={password}
+                  />
+                </div>
+                <button className="signbtn" onClick={handleClick}>
+                  Sign Up
+                </button>
+              </div>
+            )}
           </div>
-          <div className="input_space">
-            <input placeholder="Password" type="password" ref={password} />
-          </div>
-          <button onClick={handleSignIn}>Sign In</button>
         </div>
-      ) : (
-        <div className="container">
-          <div className="input_space">
-            <input placeholder="Nickname" type="text" ref={Nickname} />
-          </div>
-          <div className="input_space">
-            <input placeholder="Email" type="text" ref={email} />
-          </div>
-          <div className="input_space">
-            <input placeholder="Password" type="password" ref={password} />
-          </div>
-          <button onClick={handleClick}>Sign Up</button>
-        </div>
-      )}
+      </div>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import "../App.css";
+import "./LoadingPage.styles.css";
 
 function LoadingPage() {
   const [progress, setProgress] = useState(0);
@@ -18,56 +18,33 @@ function LoadingPage() {
 
   const loadingBarStyles = {
     width: `${progress}%`,
-    height: "5px",
+    height: "10px",
     backgroundColor: "red",
     transition: "width 0.1s ease-out",
+    position: "relative",
+    margin: "30px auto 0",
+    overflow: "hidden",
   };
   if (progress < 100) {
     return (
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          height: "100vh",
-        }}
-      >
-        <div
-          style={{
-            width: "400px",
-            padding: "20px",
-            border: "1px solid black",
-            textAlign: "center",
-          }}
-        >
-          <div>{progress}%</div>
-          <h1>
-            "I'm adjusting everything in your thinking,hold your breath and wait
-            a moment..."
-          </h1>
-          <div style={loadingBarStyles}></div>
+      <div className="loading-page">
+        <div className="load-center">
+          <div className="load-c-center">
+            <div>{progress}%</div>
+            <h1>
+              "I'm adjusting everything in your thinking,hold your breath and
+              wait a moment..."
+            </h1>
+            <div style={loadingBarStyles}></div>
+          </div>
         </div>
       </div>
     );
   } else {
     return (
       <div className="load-container">
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            height: "100vh",
-          }}
-        >
-          <div
-            style={{
-              width: "400px",
-              padding: "20px",
-              border: "1px solid black",
-              textAlign: "center",
-            }}
-          >
+        <div className="load-center">
+          <div className="load-c-center">
             "Everything is okay now, you can take a deep breath and smile!"
             <br />
             "If you still feel uncomfortable, please click on the relaxation

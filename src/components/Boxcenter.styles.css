@@ -1,0 +1,15 @@
+.Boxcontainer {
+  margin-top: 20px;
+}
+.logout {
+  margin-right: 20px;
+  color: white;
+  font-weight: 400;
+}
+.delete {
+  padding: 10px;
+  color: white;
+  background-color: rgb(19, 103, 142);
+  font-weight: 400px;
+  border-radius: 20px;
+}

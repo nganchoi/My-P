@@ -1,0 +1,25 @@
+.loading-page {
+  justify-content: center;
+  max-width: 100%;
+  background: url("https://thumbs.gfycat.com/AppropriatePeacefulAmericanredsquirrel-size_restricted.gif")
+    center center no-repeat;
+  background-size: 50%;
+}
+.load-container {
+  justify-content: center;
+  max-width: 100%;
+  background: url("https://thumbs.gfycat.com/FrighteningThoroughBurro-size_restricted.gif")
+    center center no-repeat;
+  background-size: 50%;
+}
+.load-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.load-c-center {
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+}

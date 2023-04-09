@@ -1,0 +1,29 @@
+.thankyou_button_active {
+  transition: all 0.4s ease-in;
+  background-color: #ff9d72;
+  color: white;
+  border: 1px solid #ff9d72;
+  width: 120px;
+  outline: none;
+  height: 31px;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 15px;
+  padding: 6px 10px;
+  margin-bottom: 1rem;
+  transform: translateY(4px);
+}
+.thankyou_button {
+  transition: all 0.4s ease-in;
+  border: 1px solid #ff9d72;
+  background: white;
+  color: #ff9d72;
+  width: 120px;
+  outline: none;
+  height: 31px;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 15px;
+  padding: 6px 10px;
+  margin-bottom: 1rem;
+}

@@ -1,31 +1,73 @@
-* {
+.login-box {
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
   text-align: center;
+  box-shadow: rgb(240 232 232) 0px 7px 29px 0px;
 }
 .container {
-  margin-top: 100px;
+  justify-content: center;
+  max-width: 100%;
+  padding: 20px;
 }
-.input_space {
-  margin-bottom: 10px;
+h2 {
+  margin: -25px 0 20px 0;
+  text-align: center;
+  color: #8f8888;
 }
-input {
-  height: 30px;
-  width: 20%;
-  font-size: 18px;
+
+form {
+  margin-left: 40px;
 }
-button {
-  height: 30px;
-  width: 15%;
-  background-color: grey;
+
+.input {
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 10px;
   border: none;
+  outline: none;
+  font-family: sans-serif;
+  font-size: 16px;
+  border-radius: 25px;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
 }
-.logout {
-  margin-right: 5px;
+
+.signbtn {
+  width: 80%;
+  border: none;
+  height: 35px;
+  border-radius: 25px;
+  background: rgb(82, 182, 221);
   color: white;
-  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
 }
-.delete {
-  margin-right: 5px;
-  color: white;
-  background-color: rgb(19, 103, 142);
-  font-weight: 400;
+
+input:focus {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+.signbtn:active {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+a {
+  margin-left: 32%;
+  color: #8f8888;
+  font-size: 16px;
+  text-decoration: none;
+}
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(22, 24, 24);
+}
+.loginmain {
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+}
+.big-container {
+  background-color: #8f8888;
 }

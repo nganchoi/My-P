@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import LoadingPage from "./LoadingPage";
+import "./Home.styles.css";
 
 const Home = () => {
   const [showPage, setShowPage] = useState(false);
@@ -21,7 +22,24 @@ const Home = () => {
         height: "100vh",
       }}
     >
-      <button onClick={handleClick}>Click Me</button>
+      <div className="button button--piyo">
+        <div className="button__wrapper">
+          <button className="button button__text" onClick={handleClick}>
+            CLICK ME
+          </button>
+        </div>
+        <div className="characterBox">
+          <div className="character wakeup">
+            <div className="character__face"></div>
+          </div>
+          <div className="character wakeup">
+            <div className="character__face"></div>
+          </div>
+          <div className="character">
+            <div className="character__face"></div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

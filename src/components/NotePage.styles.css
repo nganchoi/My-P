@@ -1,0 +1,42 @@
+img {
+  width: 150;
+  height: 250;
+}
+.text-form {
+  margin: 0;
+}
+
+.trash {
+  align-items: center;
+  display: inline-block;
+}
+.push {
+  height: 30px;
+  background-color: none;
+  width: 0;
+}
+.Li {
+  color: rgb(232, 242, 250);
+  padding: 8px;
+}
+.Boxcenter {
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+}
+.boxcenter {
+  padding: 20px;
+  text-align: center;
+}
+.submitbtn {
+  width: 30%;
+  border: none;
+  height: 35px;
+  border-radius: 25px;
+  background: rgb(82, 182, 221);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+}
