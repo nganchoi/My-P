@@ -54,7 +54,7 @@ function SignInSignupWithLocalStorage() {
             {showHome ? (
               <Box />
             ) : show ? (
-              <div className="container">
+              <div className="login-xbox">
                 <h1>Hello {localName}</h1>
                 <div className="login-sbox">
                   <input
@@ -77,7 +77,7 @@ function SignInSignupWithLocalStorage() {
                 </button>
               </div>
             ) : (
-              <div className="container">
+              <div className="login-xbox ">
                 <div className="login-sbox">
                   <input
                     className="input"

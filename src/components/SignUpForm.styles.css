@@ -61,7 +61,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(22, 24, 24);
 }
 .loginmain {
   width: 400px;
@@ -69,5 +68,13 @@ a {
   text-align: center;
 }
 .big-container {
-  background-color: #8f8888;
+  background-color: black;
+  height: 100vh;
+}
+.login-xbox {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60%;
+  padding: 20px;
 }

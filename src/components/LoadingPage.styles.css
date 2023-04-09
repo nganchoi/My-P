@@ -3,23 +3,38 @@
   max-width: 100%;
   background: url("https://thumbs.gfycat.com/AppropriatePeacefulAmericanredsquirrel-size_restricted.gif")
     center center no-repeat;
-  background-size: 50%;
+  background-size: 100%;
+  border-radius: 50%;
+  height: 10vh;
+  padding: 10px;
 }
 .load-container {
   justify-content: center;
   max-width: 100%;
   background: url("https://thumbs.gfycat.com/FrighteningThoroughBurro-size_restricted.gif")
     center center no-repeat;
-  background-size: 50%;
+  background-size: 100%;
+  border-radius: 50%;
+  height: 20vh;
+  padding: 10px;
 }
 .load-center {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: #000000;
 }
 .load-c-center {
   width: 400px;
   padding: 20px;
   text-align: center;
+}
+.text {
+  background-color: rgba(240, 248, 255, 0.345);
+  border-radius: 20px;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  color: #34d072;
+  font-size: 20px;
+  padding: 20px;
 }

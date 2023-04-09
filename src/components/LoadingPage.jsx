@@ -27,14 +27,16 @@ function LoadingPage() {
   };
   if (progress < 100) {
     return (
-      <div className="loading-page">
-        <div className="load-center">
-          <div className="load-c-center">
+      <div className="load-center">
+        <div className="load-c-center">
+          <div className="text">
             <div>{progress}%</div>
             <h1>
               "I'm adjusting everything in your thinking,hold your breath and
               wait a moment..."
             </h1>
+          </div>
+          <div className="loading-page">
             <div style={loadingBarStyles}></div>
           </div>
         </div>
@@ -42,9 +44,9 @@ function LoadingPage() {
     );
   } else {
     return (
-      <div className="load-container">
-        <div className="load-center">
-          <div className="load-c-center">
+      <div className="load-center">
+        <div className="load-c-center">
+          <div className="text">
             "Everything is okay now, you can take a deep breath and smile!"
             <br />
             "If you still feel uncomfortable, please click on the relaxation
@@ -52,6 +54,8 @@ function LoadingPage() {
             <br />
             <br />
             <br />
+          </div>
+          <div className="load-container">
             <Link to="/SignInSignupWithLocalStorage">
               <button
                 type="button"

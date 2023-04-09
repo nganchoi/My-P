@@ -1,5 +1,5 @@
 .main {
-  background: url("https://images.unsplash.com/photo-1603484477859-abe6a73f9366?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80")
+  background: url("https://images.unsplash.com/photo-1579800790234-cb5bd473ebe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxhY2slMjBwYXBlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60")
     center center no-repeat;
   background-size: cover;
 }
@@ -22,10 +22,10 @@
   height: 80px;
   box-sizing: border-box;
   text-decoration: none;
-  border: solid 3px #000;
+  border: solid 1px #a5a0a0;
   border-radius: 40px;
-  background: var(--main_color);
-  box-shadow: rgb(3 3 3 / 63%) 0px 7px 29px 0px;
+  background: #e4e1d5e2;
+  box-shadow: rgb(174 170 170 / 53%) 0px 7px 29px 0px;
 }
 .button::before {
   position: absolute;
@@ -81,8 +81,8 @@
   width: 56px;
   height: 36px;
   box-sizing: border-box;
-  border: solid 3px #000;
-  background: var(--main_color);
+  border: solid 1px #000;
+  background: #d01212;
   border-radius: var(--border_radius1);
   animation: sleep 1s ease infinite alternate;
 }
